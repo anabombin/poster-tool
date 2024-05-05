@@ -1,0 +1,197 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;  
+    /* border: 1px solid purple; */
+}
+
+body {
+    width:100vw;
+    height: 100vh;
+    padding: 20px;
+    background-color: rgb(20, 20, 20);
+}
+
+.header{
+    width:100%;
+    height:10%;
+    font-family: 'roboto', monospace;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.container{
+    width:100%;
+    height:90%;
+    display:flex;
+}
+
+/* Poster left side panel */
+.poster-grid{
+    width: 20%;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(51, 51, 51);
+    padding: 5px;
+}
+.grid {
+    width: 100%;
+    height: 80vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Define two columns */
+    grid-auto-rows: auto; /* Automatically adjust row height based on content */
+    overflow: scroll;
+    display: show;
+}
+
+.grid img {
+    width: 100%; /* Adjusted width to fit the grid cell */
+    height: auto; /* Maintain aspect ratio */
+    padding: 5px;
+}
+
+#grid-title {
+    color: white;
+    font-family: 'roboto', monospace;
+}
+
+/* Poster center panel */
+.poster {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.poster-background {
+    width: 70%;
+    height: 100%;
+    background-color: rgb(75, 92, 120);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.masked {
+    width: 100%;
+    height: 100%;
+    background-color: #8cffa0;
+    -webkit-mask-image: url("png-traced/les-gets.png");
+    mask-image: url("png-traced/les-gets.png");
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-size: cover;
+}
+
+
+/* Tools right side panel */
+.right-menu {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.tool {
+    padding: 5px;
+    background-color: rgb(42, 42, 42);
+    color: white;
+    font-family: 'roboto', monospace;
+    margin-bottom: 5px;
+}
+
+.title {
+    background-color: black;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.less:hover{
+    cursor: pointer;
+}
+
+.custom-buttons {
+    padding: 5px;
+}
+
+.backColor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imgColor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input[type=color]{
+    border: 3px solid black;
+    background: rgb(51, 51, 51);
+    width: 45%;
+    padding: 3px;
+}
+
+input[type=color]:hover{
+    cursor:pointer;
+}
+
+.tool-buttons {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 48%;
+    height: 30px;
+    border: 3px solid black;
+    background: rgb(51, 51, 51);
+    color: white;
+    font-family: 'roboto', monospace;
+}
+
+button:hover {
+    cursor:pointer;
+    background-color: black;
+}
+
+.ref-img {
+    width: 20vw;
+    /* height: 100%; */
+    font-family: 'roboto', monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: rgb(51, 51, 51);
+    padding: 5px;
+    color: white;
+}
+
+.image-poster {
+    width: 95%;
+    height: 45vh;
+    background-image: url("images/lesgets-photo.jpg");
+    background-size: cover;
+    margin: 5px;
+    display: show;
+}
+
+p {
+    font-family: 'roboto', monospace;
+    font-weight: 100;
+    font-size: small;
+}
+
+h3 {
+    font-family: 'roboto', monospace;
+    font-weight:700;
+    font-size: medium;
+}

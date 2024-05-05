@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.typekit.net/glk2fox.css">
+    <link rel="stylesheet" href="https://use.typekit.net/glk2fox.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Erica+One&family=Trochut:ital,wght@0,400;0,700;1,400&family=Uncial+Antiqua&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <title>Changing States</title>
+    <link rel="stylesheet" href="style3.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js" integrity="sha256-xLD7nhI62fcsEZK2/v8LsBcb4lG7dgULkuXoXB/j91c=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.5/dist/html2canvas.min.js"></script>
+    <script src="script1.js"></script>
+</head>
+<body>
+    <div class="header">
+        <h1>Customize your own poster</h1>
+    </div>
+    <div class="container">
+        <div class="poster-grid">
+            <div class="title" id="grid-title">
+                <h3>Posters</h3>
+                <h3 class="less" id="less-grid">- </h3>
+            </div>
+            <div class="grid">
+                <img id="venice" src="images/Venice.jpg">
+                <img id="thailand" src="images/Thailand.jpg">
+                <img id="tenerife" src="images/Tenerife.jpg">
+                <img id="stmoritz" src="images/stmoritz.jpg">
+                <img id="pula" src="images/Pula.jpg">
+                <img id="paris" src="images/Paris.jpg">
+                <img id="lesgets" src="images/Les_Gets.jpg">
+                <img id="hochybrig" src="images/hochYbrig.jpg">
+                <img id="goldengate" src="images/Golden_Gate.jpg">
+                <img id="dumbo" src="images/Dumbo.jpg">
+                <img id="cascais" src="images/Cascais.jpg">
+                <img id="cartagena" src="images/Cartagena.jpg">
+                <img id="atenas" src="images/Atenas.jpg">
+                <img id="asturias" src="images/Asturias.jpg">
+            </div>
+        </div>
+        <div class="poster" id="poster">
+            <div class="poster-background" id="poster-photo">
+                <div class="masked"></div>
+            </div>
+        </div>
+        <div class="right-menu">
+            <div class="tool">
+                <div class="title">
+                    <h3>Personalize</h3>
+                    <h3 class="less" id="less-tool">- </h3>
+                </div>
+                <div class="custom-buttons">
+                    <div class="backColor">
+                        <p>Background Color:</p>
+                        <input type="color" id="backcolor" name="backcolor" value="#ff0000">
+                    </div>
+                    <div class="imgColor">
+                        <p>Image Color:</p>
+                        <input type="color" id="imgcolor" name="imgcolor" value="#ff0000">
+                    </div>
+                </div>
+                <div class="tool-buttons">
+                    <button type="button" id="save" onclick='takeshot()'>Save</button>
+                    <button type="button" id="randomize">Randomize</button>
+                </div>
+            </div>
+            <div class="ref-img">
+                <div class="title">
+                    <h3>Reference Image</h3>
+                    <h3 class="less" id="less-reference">- </h3>
+                </div>
+                <div class="image-poster"></div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
