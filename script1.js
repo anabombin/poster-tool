@@ -33,14 +33,14 @@ $( document ).ready(function() {
         $(".masked").css("mask-image", 'url("png-traced/venezia.png")');
     });
 
-    /// Phuket
+    /// Thailand
     $("#thailand").click(function() {
         // change reference image
         $(".image-poster").css("background-image", 'url("images/thailand-photo.jpg")');
     
         // change masked image
-        $(".masked").css("-webkit-mask-image", 'url("png-traced/phuket.png")');
-        $(".masked").css("mask-image", 'url("png-traced/phuket.png")');
+        $(".masked").css("-webkit-mask-image", 'url("png-traced/thailand.png")');
+        $(".masked").css("mask-image", 'url("png-traced/thailand.png")');
     });
 
     /// Tenerife
@@ -161,6 +161,57 @@ $( document ).ready(function() {
         // change masked image
         $(".masked").css("-webkit-mask-image", 'url("png-traced/asturias.png")');
         $(".masked").css("mask-image", 'url("png-traced/asturias.png")');
+    });
+
+    /// amsterdam
+    $("#amsterdam").click(function() {
+        // change reference image
+        $(".image-poster").css("background-image", 'url("images/amsterdam.jpg")');
+    
+        // change masked image
+        $(".masked").css("-webkit-mask-image", 'url("png-traced/amsterdam.png")');
+        $(".masked").css("mask-image", 'url("png-traced/amsterdam.png")');
+    });
+
+    /// san juan
+    $("#sanjuan").click(function() {
+        // change reference image
+        $(".image-poster").css("background-image", 'url("images/san_juan.jpg")');
+    
+        // change masked image
+        $(".masked").css("-webkit-mask-image", 'url("png-traced/san_juan.png")');
+        $(".masked").css("mask-image", 'url("png-traced/san_juan.png")');
+    });
+
+    /// painted ladies
+    $("#paintedladies").click(function() {
+        // change reference image
+        $(".image-poster").css("background-image", 'url("images/painted_ladies.jpg")');
+    
+        // change masked image
+        $(".masked").css("-webkit-mask-image", 'url("png-traced/painted_ladies.png")');
+        $(".masked").css("mask-image", 'url("png-traced/painted_ladies.png")');
+    });
+
+    /// guincho
+    $("#guincho").click(function() {
+        // change reference image
+        $(".image-poster").css("background-image", 'url("images/guincho.jpg")');
+    
+        // change masked image
+        $(".masked").css("-webkit-mask-image", 'url("png-traced/guinxo.png")');
+        $(".masked").css("mask-image", 'url("png-traced/guinxo.png")');
+    });
+
+
+    /// Phuket
+    $("#phuket").click(function() {
+        // change reference image
+        $(".image-poster").css("background-image", 'url("images/phuket-photo.jpg")');
+    
+        // change masked image
+        $(".masked").css("-webkit-mask-image", 'url("png-traced/phuket.png")');
+        $(".masked").css("mask-image", 'url("png-traced/phuket.png")');
     });
 
     // randomize button
