@@ -221,8 +221,8 @@ $( document ).ready(function() {
         $(".image-poster").css("background-image", 'url("images/courchevel-photo.JPG")');
     
         // change masked image
-        $(".masked").css("-webkit-mask-image", 'url("png-traced/courchevel.png")');
-        $(".masked").css("mask-image", 'url("png-traced/courchevel.png")');
+        $(".masked").css("-webkit-mask-image", 'url("png-traced/Courchevel.png")');
+        $(".masked").css("mask-image", 'url("png-traced/Courchevel.png")');
     });
 
     /// courchevel2
@@ -231,8 +231,8 @@ $( document ).ready(function() {
         $(".image-poster").css("background-image", 'url("images/courchevel2-photo.JPG")');
     
         // change masked image
-        $(".masked").css("-webkit-mask-image", 'url("png-traced/courchevel2.png")');
-        $(".masked").css("mask-image", 'url("png-traced/courchevel2.png")');
+        $(".masked").css("-webkit-mask-image", 'url("png-traced/Courchevel2.png")');
+        $(".masked").css("mask-image", 'url("png-traced/Courchevel2.png")');
     });
 
 
@@ -242,8 +242,8 @@ $( document ).ready(function() {
         $(".image-poster").css("background-image", 'url("images/georgetown-photo-.jpeg")');
     
         // change masked image
-        $(".masked").css("-webkit-mask-image", 'url("png-traced/georgetown.png")');
-        $(".masked").css("mask-image", 'url("png-traced/georgetown.png")');
+        $(".masked").css("-webkit-mask-image", 'url("png-traced/Georgetown.png")');
+        $(".masked").css("mask-image", 'url("png-traced/Georgetown.png")');
     });
 
     /// lisboa
@@ -252,8 +252,8 @@ $( document ).ready(function() {
         $(".image-poster").css("background-image", 'url("images/lisboa-photo.jpg")');
     
         // change masked image
-        $(".masked").css("-webkit-mask-image", 'url("png-traced/lisboa.png")');
-        $(".masked").css("mask-image", 'url("png-traced/lisboa.png")');
+        $(".masked").css("-webkit-mask-image", 'url("png-traced/Lisboa.png")');
+        $(".masked").css("mask-image", 'url("png-traced/Lisboa.png")');
     });
 
     /// matterhon
@@ -262,8 +262,8 @@ $( document ).ready(function() {
         $(".image-poster").css("background-image", 'url("images/matterhorn-photo.JPEG")');
     
         // change masked image
-        $(".masked").css("-webkit-mask-image", 'url("png-traced/matterhorn.png")');
-        $(".masked").css("mask-image", 'url("png-traced/matterhorn.png")');
+        $(".masked").css("-webkit-mask-image", 'url("png-traced/Matterhorn.png")');
+        $(".masked").css("mask-image", 'url("png-traced/Matterhorn.png")');
     });
 
 
@@ -273,8 +273,8 @@ $( document ).ready(function() {
         $(".image-poster").css("background-image", 'url("images/miami-photo.jpeg")');
     
         // change masked image
-        $(".masked").css("-webkit-mask-image", 'url("png-traced/miami.png")');
-        $(".masked").css("mask-image", 'url("png-traced/miami.png")');
+        $(".masked").css("-webkit-mask-image", 'url("png-traced/Miami.png")');
+        $(".masked").css("mask-image", 'url("png-traced/Miami.png")');
     });
 
     /// new york
@@ -283,8 +283,8 @@ $( document ).ready(function() {
         $(".image-poster").css("background-image", 'url("images/new-york-photo.jpeg")');
     
         // change masked image
-        $(".masked").css("-webkit-mask-image", 'url("png-traced/new_york.png")');
-        $(".masked").css("mask-image", 'url("png-traced/new_york.png")');
+        $(".masked").css("-webkit-mask-image", 'url("png-traced/New_York.png")');
+        $(".masked").css("mask-image", 'url("png-traced/New_York.png")');
     });
 
     /// newport
@@ -293,8 +293,8 @@ $( document ).ready(function() {
         $(".image-poster").css("background-image", 'url("images/newport-photo.jpeg")');
     
         // change masked image
-        $(".masked").css("-webkit-mask-image", 'url("png-traced/newport.png")');
-        $(".masked").css("mask-image", 'url("png-traced/newport.png")');
+        $(".masked").css("-webkit-mask-image", 'url("png-traced/Newport.png")');
+        $(".masked").css("mask-image", 'url("png-traced/Newport.png")');
     });
 
 
@@ -304,8 +304,8 @@ $( document ).ready(function() {
         $(".image-poster").css("background-image", 'url("images/zurich-photo.jpeg")');
     
         // change masked image
-        $(".masked").css("-webkit-mask-image", 'url("png-traced/zurich.png")');
-        $(".masked").css("mask-image", 'url("png-traced/zurich.png")');
+        $(".masked").css("-webkit-mask-image", 'url("png-traced/Zurich.png")');
+        $(".masked").css("mask-image", 'url("png-traced/Zurich.png")');
     });
 
     // randomize button
