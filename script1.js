@@ -308,6 +308,96 @@ $( document ).ready(function() {
         $(".masked").css("mask-image", 'url("png-traced/Zurich.png")');
     });
 
+    /// mykonos
+    $("#mykonos").click(function() {
+        // change reference image
+        $(".image-poster").css("background-image", 'url("images/mykonos_photo.jpg")');
+    
+        // change masked image
+        $(".masked").css("-webkit-mask-image", 'url("png-traced/Mykonos.png")');
+        $(".masked").css("mask-image", 'url("png-traced/Mykonos.png")');
+    });
+
+    /// parthenon
+    $("#parthenon").click(function() {
+        // change reference image
+        $(".image-poster").css("background-image", 'url("images/parthenon_photo.jpg")');
+    
+        // change masked image
+        $(".masked").css("-webkit-mask-image", 'url("png-traced/Parthenon.png")');
+        $(".masked").css("mask-image", 'url("png-traced/Parthenon.png")');
+    });
+
+    /// retiro
+    $("#retiro").click(function() {
+        // change reference image
+        $(".image-poster").css("background-image", 'url("images/el_retiro_photo.JPG")');
+    
+        // change masked image
+        $(".masked").css("-webkit-mask-image", 'url("png-traced/El_Retiro.png")');
+        $(".masked").css("mask-image", 'url("png-traced/El_Retiro.png")');
+    });
+
+    /// vigo
+    $("#vigo").click(function() {
+        // change reference image
+        $(".image-poster").css("background-image", 'url("images/vigo_photo.jpeg")');
+    
+        // change masked image
+        $(".masked").css("-webkit-mask-image", 'url("png-traced/Vigo.png")');
+        $(".masked").css("mask-image", 'url("png-traced/Vigo.png")');
+    });
+
+    /// bilbao
+    $("#bilbao").click(function() {
+        // change reference image
+        $(".image-poster").css("background-image", 'url("images/bilbao_photo.jpeg")');
+    
+        // change masked image
+        $(".masked").css("-webkit-mask-image", 'url("png-traced/Bilbao.png")');
+        $(".masked").css("mask-image", 'url("png-traced/Bilbao.png")');
+    });
+
+    /// sognefjord
+    $("#sognefjord").click(function() {
+        // change reference image
+        $(".image-poster").css("background-image", 'url("images/sognefjord_photo.JPEG")');
+    
+        // change masked image
+        $(".masked").css("-webkit-mask-image", 'url("png-traced/Sognefjord.png")');
+        $(".masked").css("mask-image", 'url("png-traced/Sognefjord.png")');
+    });
+
+    /// copenhagen
+    $("#copenhagen").click(function() {
+        // change reference image
+        $(".image-poster").css("background-image", 'url("images/copenhagen_photo.jpg")');
+    
+        // change masked image
+        $(".masked").css("-webkit-mask-image", 'url("png-traced/Copenhagen.png")');
+        $(".masked").css("mask-image", 'url("png-traced/Copenhagen.png")');
+    });
+
+    /// little mermaid
+    $("#little-mermaid").click(function() {
+        // change reference image
+        $(".image-poster").css("background-image", 'url("images/little_mermaid_photo.JPEG")');
+    
+        // change masked image
+        $(".masked").css("-webkit-mask-image", 'url("png-traced/Little_Mermaid.png")');
+        $(".masked").css("mask-image", 'url("png-traced/Little_Mermaid.png")');
+    });
+
+    /// millenium park
+    $("#millenium-park").click(function() {
+        // change reference image
+        $(".image-poster").css("background-image", 'url("images/millenium_park.jpg")');
+    
+        // change masked image
+        $(".masked").css("-webkit-mask-image", 'url("png-traced/Millenium_Park.png")');
+        $(".masked").css("mask-image", 'url("png-traced/Millenium_Park.png")');
+    });
+
     // randomize button
     $("#randomize").click(function(){
         let x = Math.floor(Math.random()*255);
